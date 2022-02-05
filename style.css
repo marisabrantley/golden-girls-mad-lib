@@ -88,14 +88,27 @@ input[type="text"] {
   text-decoration: underline;
 }
 
+/* --------- Media Queries --------- */
 
-@media only screen and (max-width 480px) {
-  body {
-    height: 70vh;
-  }
+@media only screen and (max-width: 480px) {
 
   form {
-    font-size: 26px;
-    padding-bottom: 36px;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 15px 0;
+  }
+
+  #main {
+    margin: 2% 8%;  
+  }
+
+  #top img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  #top h1 {
+    font-size: 36px
   }
 }
