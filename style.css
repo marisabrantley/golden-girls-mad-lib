@@ -17,6 +17,12 @@ form {
   padding-bottom: 36px;
 }
 
+label {
+  width: 110px;
+  display: inline-block;
+  text-align: right;
+}
+
 h3 {
   font-size: 22px;
   font-style: italic;
@@ -29,7 +35,7 @@ p {
 input[type="text"] {
   min-height: 18px;
   border-radius: 5px;
-  border:1px solid #cccccc;
+  border:1px solid #ffe6ee;
 }
 
 #main {
@@ -96,6 +102,10 @@ input[type="text"] {
     font-size: 18px;
     line-height: 20px;
     padding: 15px 0;
+  }
+
+  input[type="text"] {
+    min-height: 22px;
   }
 
   #main {
