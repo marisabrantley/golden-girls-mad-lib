@@ -116,6 +116,7 @@ input[type="text"] {
     display: block;
     width: 90%;
     margin: 0 auto;
+    padding-top: 10px;
   }
   
   #top h1 {
